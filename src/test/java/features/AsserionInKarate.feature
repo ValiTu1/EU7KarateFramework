@@ -34,7 +34,6 @@ Feature: using match keyword
     * match employee.last_name == '#notpresent'
 
 
-  @wip
   Scenario:  contains matching
     * def employees =
     """
