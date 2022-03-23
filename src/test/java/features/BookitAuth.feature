@@ -3,7 +3,7 @@ Feature: get user token
   Background: 
     * def bookItUrl = "https://cybertek-reservation-api-qa3.herokuapp.com"
 
-  @wip
+
   Scenario: get one user token
     Given url bookItUrl
     And header Accept = "application/json"
